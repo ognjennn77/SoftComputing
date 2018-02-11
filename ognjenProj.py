@@ -21,7 +21,7 @@ from skimage.color import label2rgb
 
 
 
-model = load_model('model.h5')
+model = load_model('mdl.h5')
 
 cv2.useOptimized()
 def houghTrans(img):
